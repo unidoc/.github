@@ -1,6 +1,6 @@
 # Security Policy
 
-This policy applies to every repository in the unidoc ([https://github.com/unidoc](https://github.com/unidoc)) organisation, to our websites and to our hosted services more about how we work is at [https://security.unidoc.io](https://security.unidoc.io). 
+This policy applies to every repository in the unidoc ([https://github.com/unidoc](https://github.com/unidoc)) organisation, to our websites and to our hosted services. More about how we work is at [https://security.unidoc.io](https://security.unidoc.io).
 
 Our libraries parse PDF, Office and HTML files, and that input is usually untrusted, so a parsing bug is reachable by anyone who can get a document into a customer's pipeline. Malformed and hostile files are the core of this policy, not an edge case.
 
@@ -47,10 +47,10 @@ heard from us within the target period, please follow up. If we are going to mis
 target, we will say so with a revised estimate rather than go quiet.
 
 Security fixes for supported versions are free of charge for everyone, whether or not
-you hold a commercial licence. A commercial licence additionally provides support and  
-maintenance under the applicable agreement and SLA, including response times for  
-support requests, delivery of fixes, maintenance of supported versions, and direct  
-communication with our engineering team, on the agreed  
+you hold a commercial licence. A commercial licence additionally provides support and
+maintenance under the applicable agreement and SLA, including response times for
+support requests, delivery of fixes, maintenance of supported versions, and direct
+communication with our engineering team, on the agreed
 [terms and service levels](https://unidoc.io/sla/).
 
 We credit you in the advisory unless you would rather not be named.
@@ -77,12 +77,11 @@ unauthorised access, information disclosure or denial of service.
 
 - Third-party tools we invoke but do not ship — please report those to their
 maintainers.
-- Issues in an upstream project we merely keep a fork of. Several repositories here  
-are forks we maintain so that a UniDoc product can depend on them report those  
-upstream first, and tell us as well if the issue changes how the fork behaves inside  
+- Issues in an upstream project we merely keep a fork of. Several repositories here
+are forks we maintain so that a UniDoc product can depend on them; report those
+upstream first, and tell us as well if the issue changes how the fork behaves inside
 one of our products.
-- Findings our own tools (UniSupply, gorisk.dev) report against third-party code,
-which belong to that upstream project.
+- Findings UniSupply reports against third-party code, which belong to that upstream project.
 - Scanner output with no demonstrated impact.
 - Denial of service against our websites by traffic volume alone.
 - Social engineering of our staff, and physical attacks.
@@ -107,8 +106,9 @@ changes an upgrade requires.
 | ISMS | Apache-2.0 | latest release |
 | PDF Debugger | Apache-2.0 | latest release |
 
-If you need a security fix for an older version line, contact us at [security@unidoc.io](mailto:security@unidoc.io). We only support the latest lines, but we can look at requests case by case.  
-Hosted services — unidoc.io, isms.sh, gorisk.dev, the licensing API at cloud.unidoc.io, and the UniHTML rendering server — are supported at the version currently deployed or published.
+If you need a security fix for an older version line, contact us at [security@unidoc.io](mailto:security@unidoc.io). We only support the latest lines, but we can look at requests case by case.
+
+Hosted services — unidoc.io, isms.sh, the licensing API at cloud.unidoc.io, and the UniHTML rendering server — are supported at the version currently deployed or published.
 
 ## Coordinated disclosure
 
@@ -118,8 +118,8 @@ Hosted services — unidoc.io, isms.sh, gorisk.dev, the licensing API at cloud.u
 4. We request a CVE where appropriate.
 5. We release the fix, publish the advisory, and credit you.
 
-We ask you to allow reasonable time for us to investigate and fix a reported  
-vulnerability before publishing technical details we will agree a disclosure date  
+We ask you to allow reasonable time for us to investigate and fix a reported
+vulnerability before publishing technical details; we will agree a disclosure date
 with you rather than leave one open.
 
 We do not require an NDA to report a vulnerability, and we will not pursue legal
@@ -130,7 +130,7 @@ remediation, coordination and legal reporting require.
 
 ## Actively exploited vulnerabilities
 
-If a vulnerability in one of our products is ever actively exploited, we follow the  
-reporting obligations of the EU Cyber Resilience Act and tell affected customers what  
-they need to do. Regulatory notification is handled separately from publication of the  
+If a vulnerability in one of our products is ever actively exploited, we follow the
+reporting obligations of the EU Cyber Resilience Act and tell affected customers what
+they need to do. Regulatory notification is handled separately from publication of the
 public advisory, and is not delayed to meet a preferred disclosure date.
